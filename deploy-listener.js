@@ -5,7 +5,7 @@ const app = express();
 app.use(express.json());
 
 app.post('/deploy', (req, res) => {
-  console.log("🚀 Deploy trigger received from Travis CI");
+  console.log("🚀 Deploy trigger received from Travis CI Application");
   res.send('OK');
 });
 
