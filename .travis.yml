@@ -6,4 +6,3 @@ script:
 
 after_success:
   - echo "Triggering local deploy listener..."
-  - curl -X POST <ngrok_url>/deploy
