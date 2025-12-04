@@ -7,6 +7,7 @@ app.use(express.json());
 app.post('/deploy', (req, res) => {
   console.log("🚀 Deploy trigger received from Travis CI Application");
   console.log("Starting deployment process...");
+  console.log("Deployment process completed successfully!");
   res.send('OK');
 });
 
